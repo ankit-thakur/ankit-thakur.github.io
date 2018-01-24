@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Panel Four</title>
+		<link href="../MyWebsite/panel.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="panel.js"></script>
+	</head>
+<body>
+	<br>
+	<div class = "exit">
+		<a onclick="goBack()">&#10006;</a>
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>
+	</div>
+	<div class = "container">
+		<div class="slideshow-container"> 
+			<div class = "slide">
+				<img src = "image1.jpg" class = "imgContent"/>
+				<img src = "image2.jpeg" class = "imgContent"/>
+				<img src = "image3.PNG" class = "imgContent"/>
+			</div>
+
+			<div class = "buttons">
+				<a class="left-button" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="right-button" onclick="plusDivs(1)">&#10095;</a>
+			</div>
+
+			<div id = "dots" style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+
+		</div>
+
+		<div class="info_panel">
+			<img src = "../Resumes/professional pic.png" alt = "Profile Pic" class="profile_pic" name = "myPic"/>
+
+			<div class = "header">
+			<div class="block_1"></div> <hr />
+				<h1>Panel Topic 4</h1>
+				<div class="verify"><img src="verify.png" width="45%"/></div>
+			</div>
+			<p><strong>LineTitle</strong> This is what the line will say and it will be saying lots of stuff.<br><br>
+				<strong>NextLine</strong> and this is what it is going to say.
+			</p>
+		</div>
+	</div>
+	
+</body>
+</html>
