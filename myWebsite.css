@@ -2,15 +2,15 @@
 
 @font-face {
 	font-family: 'metro-thin';
-	src: url(fonts/metropolis-thin-webfont.woff) format('woff'),
+	src: url(http://ankit-thakur.github.io/fonts/metropolis-thin-webfont.woff) format('woff'),
 }
 @font-face {
 	font-family: 'metro-light';
-	src: url(fonts/metropolis-light-webfont.woff);
+	src: url(http://ankit-thakur.github.io/fonts/metropolis-light-webfont.woff);
 }
 @font-face {
 	font-family: 'metro-semibold';
-	src: url(fonts/metropolis-semibold-webfont.woff) format('woff');
+	src: url(http://ankit-thakur.github.io/fonts/metropolis-semibold-webfont.woff) format('woff');
 }
 #wrapper {
 	max-width: 1300px;
